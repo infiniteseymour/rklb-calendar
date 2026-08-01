@@ -1,4 +1,3 @@
-\
 #!/usr/bin/env python3
 """Build a subscribable RKLB calendar from official Rocket Lab IR events.
 
