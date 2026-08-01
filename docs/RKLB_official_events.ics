@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//infiniteseymour//RKLB Official Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RKLB Official Events
+BEGIN:VEVENT
+UID:rklb-q2-2026@infiniteseymour.github.io
+DTSTAMP:20260731T163800Z
+DTSTART:20260810T210000Z
+DTEND:20260810T220000Z
+SUMMARY:RKLB | Second Quarter 2026 Financial Results Update and Conference Call
+DESCRIPTION:Official source: https://investors.rocketlabcorp.com/events-presentations/events
+URL:https://investors.rocketlabcorp.com/events-presentations/events
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
