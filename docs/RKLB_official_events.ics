@@ -3,16 +3,36 @@ VERSION:2.0
 PRODID:-//infiniteseymour//RKLB Official Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALDESC:Officially confirmed future Rocket Lab investor events.
 X-WR-CALNAME:RKLB Official Events
+REFRESH-INTERVAL:12:00:00
+X-PUBLISHED-TTL:12:00:00
 BEGIN:VEVENT
-UID:rklb-q2-2026@infiniteseymour.github.io
-DTSTAMP:20260731T163800Z
+SUMMARY:RKLB | Second Quarter 2026 Financial Results Update and Conference
+  Call
 DTSTART:20260810T210000Z
 DTEND:20260810T220000Z
-SUMMARY:RKLB | Second Quarter 2026 Financial Results Update and Conference Call
-DESCRIPTION:Official source: https://investors.rocketlabcorp.com/events-presentations/events
-URL:https://investors.rocketlabcorp.com/events-presentations/events
+DTSTAMP:20260801T034505Z
+UID:f8f43ca16b533bfe4fb75b2c@rklb-calendar.github.io
+CATEGORIES:Rocket Lab Investor Relations
+DESCRIPTION:Official source: https://investors.rocketlabcorp.com/events/ev
+ ent-details/second-quarter-2026-financial-results-update-and-conference-ca
+ ll
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://investors.rocketlabcorp.com/events/event-details/second-quarte
+ r-2026-financial-results-update-and-conference-call
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RKLB event tomorrow: Second Quarter 2026 Financial Results Upd
+ ate and Conference Call
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RKLB event in 30 minutes: Second Quarter 2026 Financial Result
+ s Update and Conference Call
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 END:VCALENDAR
